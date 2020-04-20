@@ -12,7 +12,7 @@ public class TipPanel : BasePanel {
 	//初始化
 	public override void OnInit() {
 		skinPath = "Panel/TipPanel";
-		layer = PanelManager.Layer.Tip;
+		layer = PanelManager.Layer.Layer4;
 	}
 	//显示
 	public override void OnShow(params object[] args) {
