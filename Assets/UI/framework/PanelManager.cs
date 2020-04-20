@@ -37,7 +37,7 @@ public static class PanelManager{
 		for (int i = 0; i < 10; i++)
 		{
 			Transform Layer = canvas.Find("Layer" + i);
-			layers.Add((Layer)i + 1, Bottom);
+			layers.Add((Layer)(i + 1), Layer);
 		}
 	}
 
